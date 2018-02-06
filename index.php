@@ -17,14 +17,7 @@
         <link href="css/calendar.css" rel="stylesheet" type="text/css"/>
 
         <script type="text/javascript">
-            //<![CDATA[
-            window.onload = function () {
-
-                onLoad();
-
-                document.onkeypress = keyEvent;
-            };
-            //]]>
+				Nguyen trong dang
         </script>
     </head>
     <body>
