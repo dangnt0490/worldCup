@@ -29,7 +29,37 @@
     </head>
     <body>
         <object id="oipfAppMan" type="application/oipfApplicationManager" style="visibility: hidden; display: none;"></object>
-       
+        <div id="MENU">
+     
+        </div>
+        <div id="RIGHT">
+            <div id="info" class="content">Thông tin ninh bình</div>
+            <div id="bookHotel" class="content">
+                <div id="listHotel">
+                    <?php echo file_get_contents("page/hotel.html"); ?>
+                </div>
+                <div id="bookroom" style="display: none"><?php echo file_get_contents("page/bookhotel.html"); ?></div>
+            </div>
+            <div id="dish" class="content"></div>
+            <div id="htory" class="content"></div>
+            <div id="keyboardInner" ></div>
+            <div id="keyboardInnerInfo" style="display: none"></div>
+
+        </div>
+        <div id="green" style="display: none">
+            <div>
+                <div class="greenButton"></div>
+                <div class="greentxt">ĐẶT PHÒNG NGAY</div>
+            </div>
+
+        </div>
+        <div id="blue">
+            <div>
+                <div class="blueButton"></div>
+                <div class="bluetxt">Quay Lui</div>
+            </div>
+
+        </div>
 
 
 
